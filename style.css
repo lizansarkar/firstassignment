@@ -16,6 +16,7 @@
   height: 100vh;
   width: 100%;
   background-image: url(Assets/Hero-bg.png);
+  background-color: rgb(245, 245, 245);
 }
 
 nav {
@@ -80,6 +81,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(245, 245, 245);
 }
 
 .heading {
@@ -108,6 +110,7 @@ nav {
 .third-page {
   height: 50vh;
   width: 100%;
+  background-color: rgb(245, 245, 245);
 }
 
 .third-container {
@@ -155,13 +158,14 @@ nav {
 .review-page {
   height: 50vh;
   width: 100%;
+  background-color: rgb(245, 245, 245);
 }
 
 .review-container {
   height: 410px;
   width: 100%;
   padding: 40px;
-  background-color: rgb(245, 245, 245);
+  /* background-color: rgb(245, 245, 245); */
   /* border-radius: 30px; */
 }
 
@@ -219,6 +223,31 @@ nav {
   color: #757575;
 }
 
+/* banner page */
+.banner-page {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
 
+.banner-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
 
+.banner-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #757575;
+  margin-bottom: 20px;
+}
 
+.banner-image img{
+  margin-top: 20px;
+  border-radius: 20px;
+}
