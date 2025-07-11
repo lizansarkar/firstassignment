@@ -251,3 +251,94 @@ nav {
   margin-top: 20px;
   border-radius: 20px;
 }
+
+/* contact page */
+.contact-page {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+.contact-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.contact-text {
+  width: 45%;
+  padding: 40px;
+  border: 2px solid black;
+}
+
+.contact-text h1 {
+  font-size: 97px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.form-container {
+  width: 45%;
+  padding: 40px;
+  border: 2px solid black;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none; /* Remove outline on focus */
+}
+
+.form-group input[type="email"]::placeholder,
+.form-group input[type="text"]::placeholder,
+.form-group textarea::placeholder {
+    color: #aaa;
+}
+
+.form-group input[type="email"]:focus,
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    border-color: #6a5acd; /* Slightly darker purple on focus */
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px; /* Adjust as needed */
+}
+
+#submit-btn {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
