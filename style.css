@@ -9,6 +9,7 @@
 
 .section-primary {
   padding: 50px 150px;
+  background-color: rgb(245, 245, 245);
   /* border: 2px solid rgb(94, 255, 0); */
 }
 
@@ -16,7 +17,6 @@
   height: 100vh;
   width: 100%;
   background-image: url(Assets/Hero-bg.png);
-  background-color: rgb(245, 245, 245);
 }
 
 nav {
@@ -81,7 +81,6 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(245, 245, 245);
 }
 
 .heading {
@@ -110,7 +109,6 @@ nav {
 .third-page {
   height: 50vh;
   width: 100%;
-  background-color: rgb(245, 245, 245);
 }
 
 .third-container {
@@ -158,7 +156,6 @@ nav {
 .review-page {
   height: 50vh;
   width: 100%;
-  background-color: rgb(245, 245, 245);
 }
 
 .review-container {
@@ -227,7 +224,6 @@ nav {
 .banner-page {
   height: 100vh;
   width: 100%;
-  background-color: rgb(245, 245, 245);
 }
 
 .banner-container {
@@ -256,7 +252,7 @@ nav {
 .contact-page {
   height: 100vh;
   width: 100%;
-  background-color: rgb(245, 245, 245);
+
 }
 
 .contact-container {
@@ -327,14 +323,54 @@ nav {
   width: 100%;
 }
 
+/* footer */
 
+.footer-page {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
 
+.footer-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.footer-logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+}
 
+.terms {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8987A1;
+  margin: 10px 10px;
+  text-align: center;
+}
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+}
 
-
-
+.footer-links a {
+  text-decoration: none;
+  color: #252432;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 
 
