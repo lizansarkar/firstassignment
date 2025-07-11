@@ -147,14 +147,14 @@ nav {
   color: #00000080;
 }
 
-/* 4d page */
+/* reveiw page */
 .review-page {
   height: 50vh;
   width: 100%;
+  height: auto;
 }
 
 .review-container {
-  height: 410px;
   width: 100%;
   padding: 40px;
 }
@@ -170,6 +170,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 50px;
+  gap: 20px;
 }
 
 .review-item {
