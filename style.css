@@ -10,7 +10,6 @@
 .section-primary {
   padding: 50px 150px;
   background-color: rgb(245, 245, 245);
-  /* border: 2px solid rgb(94, 255, 0); */
 }
 
 .first-page {
@@ -32,7 +31,6 @@ nav {
   font-weight: 900;
   color: #4E47FF;
 }
-
 
 .btn-primary {
   background-color: #4E47FF;
@@ -73,7 +71,6 @@ nav {
 }
 
 /* second page */
-
 .second-page {
   height: 50vh;
   width: 100%;
@@ -105,7 +102,6 @@ nav {
 }
 
 /* third page */
-
 .third-page {
   height: 50vh;
   width: 100%;
@@ -152,7 +148,6 @@ nav {
 }
 
 /* 4d page */
-
 .review-page {
   height: 50vh;
   width: 100%;
@@ -162,8 +157,6 @@ nav {
   height: 410px;
   width: 100%;
   padding: 40px;
-  /* background-color: rgb(245, 245, 245); */
-  /* border-radius: 30px; */
 }
 
 .review-heading {
@@ -299,24 +292,15 @@ nav {
     border-radius: 5px;
     font-size: 16px;
     box-sizing: border-box;
-    outline: none; /* Remove outline on focus */
+    outline: none;
 }
 
-.form-group input[type="email"]::placeholder,
-.form-group input[type="text"]::placeholder,
 .form-group textarea::placeholder {
     color: #aaa;
 }
 
-.form-group input[type="email"]:focus,
-.form-group input[type="text"]:focus,
-.form-group textarea:focus {
-    border-color: #6a5acd; /* Slightly darker purple on focus */
-}
-
 .form-group textarea {
-    resize: vertical;
-    min-height: 100px; /* Adjust as needed */
+    min-height: 100px;
 }
 
 #submit-btn {
@@ -324,7 +308,6 @@ nav {
 }
 
 /* footer */
-
 .footer-page {
   height: 50vh;
   width: 100%;
