@@ -265,13 +265,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid black;
 }
 
 .contact-text {
   width: 45%;
   padding: 40px;
-  border: 2px solid black;
 }
 
 .contact-text h1 {
@@ -283,7 +281,6 @@ nav {
 .form-container {
   width: 45%;
   padding: 40px;
-  border: 2px solid black;
 }
 
 .form-group {
